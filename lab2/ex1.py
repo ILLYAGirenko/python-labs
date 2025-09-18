@@ -11,8 +11,8 @@ def progression (n):
 m=int(input("Введіть число m: "))
 while m<=-2:
     m = int(input("Введіть інше число m: "))
-print("z =",expression(m))
+print("z =",round(expression(m),3))
 n=int(input("Введіть кількість днів, що пробіжить спортсмен: "))
 while n<0:
     n = int(input("Введіть позитивне число: "))
-print("Спортсмен проіжить =",progression(n), "км")
+print("Спортсмен проіжить =", round(progression(n),3), "км")
