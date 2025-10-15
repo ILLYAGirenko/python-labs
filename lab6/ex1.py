@@ -1,0 +1,12 @@
+group={
+    'group_number':'ППМР1-103',
+    'course':'2',
+    'students':[
+        {
+            'name':'Абоба',
+            'grades':{
+                'Математика':'88'
+            }
+        }
+    ]
+}
