@@ -98,3 +98,21 @@ def delete_student(students):
     else:
         print("Студента не знайдено.")
 delete_student(students)
+
+#функція Мартиненка О.В.
+#Пошук студента з найвищим середнім балом
+def find_top_student(students):
+    best_student = None
+    best_avg = 0
+    for name, info in students.items():
+        grades = info["Предмети та оцінки за семестр"].values()
+        if grades:
+            avg = sum(grades) / len(grades)
+            if avg > best_avg:
+                best_avg = avg
+                best_student = name
+    if best_student:
+        print(f"\nНайвищий середній бал має студент: {best_student} ({best_avg:.2f})")
+    else:
+        print("Немає даних про оцінки.")
+find_top_student(students)
