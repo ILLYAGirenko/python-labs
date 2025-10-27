@@ -88,3 +88,13 @@ def edit_student_grade(students):
 
 edit_student_grade(students)
 
+#функція Спічаков П.І.
+#видалення студентів зі списку
+def delete_student(students):
+    name = input("Введіть повне ім'я студента для видалення: ")
+    if name in students:
+        del students[name]
+        print(f"Студента {name} успішно видалено.")
+    else:
+        print("Студента не знайдено.")
+delete_student(students)
