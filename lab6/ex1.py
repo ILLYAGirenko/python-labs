@@ -65,3 +65,25 @@ def add_student(students):
 
 add_student(students)
 
+#функція Репіна Д. В.
+#Редагування оцінок студента
+def edit_student_grade(students):
+    name = input("Введіть повне ім'я студента для редагування: ")
+    if name in students:
+        print("Поточні оцінки:")
+        for subj, grade in students[name]["Предмети та оцінки за семестр"].items():
+            print(f"{subj}: {grade}")
+        subject = input("Введіть предмет, який потрібно змінити: ")
+        if subject in students[name]["Предмети та оцінки за семестр"]:
+            try:
+                new_grade = int(input("Нова оцінка: "))
+                students[name]["Предмети та оцінки за семестр"][subject] = new_grade
+                print("Оцінку успішно змінено!")
+            except ValueError:
+                print("Помилка: оцінка має бути числом.")
+        else:
+            print("Такого предмета немає.")
+    else:
+        print("Студента не знайдено.")
+
+edit_student_grade(students)
