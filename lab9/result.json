@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Egypt",
+        "area": 1002000,
+        "population": 109000000,
+        "continent": "Africa"
+    },
+    {
+        "name": "China",
+        "area": 9597000,
+        "population": 1412000000,
+        "continent": "Asia"
+    },
+    {
+        "name": "Kenya",
+        "area": 580000,
+        "population": 55000000,
+        "continent": "Africa"
+    },
+    {
+        "name": "Japan",
+        "area": 378000,
+        "population": 124000000,
+        "continent": "Asia"
+    },
+    {
+        "name": "India",
+        "area": 3287000,
+        "population": 1393000000,
+        "continent": "Asia"
+    }
+]

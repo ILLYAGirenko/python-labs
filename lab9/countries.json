@@ -1,0 +1,56 @@
+[
+    {
+        "name": "Ukraine",
+        "area": 603700,
+        "population": 40000000,
+        "continent": "Europe"
+    },
+    {
+        "name": "Egypt",
+        "area": 1002000,
+        "population": 109000000,
+        "continent": "Africa"
+    },
+    {
+        "name": "China",
+        "area": 9597000,
+        "population": 1412000000,
+        "continent": "Asia"
+    },
+    {
+        "name": "Germany",
+        "area": 357000,
+        "population": 84000000,
+        "continent": "Europe"
+    },
+    {
+        "name": "Kenya",
+        "area": 580000,
+        "population": 55000000,
+        "continent": "Africa"
+    },
+    {
+        "name": "Japan",
+        "area": 378000,
+        "population": 124000000,
+        "continent": "Asia"
+    },
+    {
+        "name": "Brazil",
+        "area": 8516000,
+        "population": 214000000,
+        "continent": "South America"
+    },
+    {
+        "name": "Australia",
+        "area": 7692000,
+        "population": 26000000,
+        "continent": "Australia"
+    },
+    {
+        "name": "India",
+        "area": 3287000,
+        "population": 1393000000,
+        "continent": "Asia"
+    }
+]
