@@ -1,0 +1,6 @@
+ Country Name  2016 [YR2016]
+       Monaco  173604.753556
+Liechtenstein  165375.491396
+      Bermuda  108747.356144
+   Luxembourg  106899.293550
+  Switzerland   82153.074545
